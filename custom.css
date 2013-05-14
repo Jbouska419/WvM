@@ -1,0 +1,81 @@
+/* Custom Bootstrap Stylesheet for WvM 
+Author: James Bouska
+Date: May 10th, 2013 */
+
+* {padding: 0; margin: 0; outline: 0;}
+     
+body {
+  background-color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	line-height: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+h1 {
+	padding-bottom: 30px;
+}
+
+h2 {
+	padding-bottom: 20px;
+}
+
+h3 {
+	font-size: 14px;
+	line-height: 15px;
+	margin-left: 5px;
+}
+
+.cl {
+	font-size: 0;
+	line-height: 0px;
+	border: 1px solid #B7B6A1;
+	height: 0;
+	margin-bottom: 40px;
+	clear: both;
+}
+
+nav {
+	background-color: #5C5C5C;
+	padding-top: 3px;
+}
+
+nav span {
+	padding: 10px;
+}
+
+ul.inline {
+	padding-right: 150px;
+}
+
+nav li {
+	color: #FFD700;
+}
+
+a {
+	color: #F4EA0D;
+}
+
+a:hover {
+	color: #FFFFFF;
+}
+
+#box {
+	border: 2px solid #BCBCC4;
+	-moz-border-radius-topleft: 10px 5px;
+	border-top-left-radius: 10px 5px;
+	-moz-border-radius-topright: 10px 5px;
+	border-top-right-radius: 10px 5px;
+	-moz-border-radius-bottomleft: 10px 5px;
+	border-bottom-left-radius: 10px 5px;
+	-moz-border-radius-bottomright: 10px 5px;
+	border-bottom-right-radius: 10px 5px;	
+	margin-bottom: 50px;
+}
+
+#box-value  {
+	font-size: 26px;
+	font-weight: bold;
+	padding-bottom: 30px;
+}
